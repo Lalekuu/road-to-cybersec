@@ -1,2 +1,2 @@
 # road-to-cybersec
-El proceso para adentrarme en el mundo de la Ciberseguridad
+My journey into the world of Cybersecurity.
