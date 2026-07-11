@@ -1,6 +1,6 @@
 # Case 003: Banking Phishing Analysis and "Bulletproof" Infrastructure
 
-## 📝 Executive Summary
+## Executive Summary
 This report documents the passive analysis of an active financial fraud campaign. The attack vector utilizes social engineering on social media (Facebook) under the guise of a "fake refund" involving a high sum of money. The ultimate goal is to redirect the victim to a fake banking portal to harvest credentials and interact in real-time through integrated chat tools.
 
 * **Investigation Date:** July 2026
