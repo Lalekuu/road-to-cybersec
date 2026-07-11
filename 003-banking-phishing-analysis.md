@@ -9,14 +9,14 @@ This report documents the passive analysis of an active financial fraud campaign
 
 ---
 
-## 👥 1. The Social Vector (Social Engineering)
+## 1. The Social Vector (Social Engineering)
 The attack relies strictly on psychological manipulation:
 * **The Lure:** The victim is contacted with a promise of a refund for an absurdly high amount of money.
 * **The Threat Actor:** A Facebook profile with multiple prior fraud complaints, indicating repeat offender behavior and a prior reconnaissance phase on social media to identify vulnerable targets.
 
 ---
 
-## 🛠️ 2. Technical Infrastructure Analysis
+## 2. Technical Infrastructure Analysis
 To avoid direct interaction with the malicious server, a safe passive scan was conducted using cloud-automated environments (urlscan.io).
 
 ### Domain & IP Information
@@ -27,7 +27,7 @@ To avoid direct interaction with the malicious server, a safe passive scan was c
 | **Provider (ASN)** | AS53667 (PONYNET - FranTech Solutions) |
 | **Geographic Location** | Luxembourg 🇱🇺 |
 
-> 📌 **Intelligence Note:** The choice of FranTech/PonyNet as a service provider is not accidental. This hosting provider is frequently classified as *Bulletproof* (high-tolerance hosting), often utilized by threat actors due to the provider's slowness or resistance in responding to abuse takedown requests.
+> **Intelligence Note:** The choice of FranTech/PonyNet as a service provider is not accidental. This hosting provider is frequently classified as *Bulletproof* (high-tolerance hosting), often utilized by threat actors due to the provider's slowness or resistance in responding to abuse takedown requests.
 
 ### Detected Tech Stack
 The website simulates a legitimate digital banking platform called **"Diamond City Trust Bank"**, built with modern technologies to increase its credibility:
@@ -37,7 +37,7 @@ The website simulates a legitimate digital banking platform called **"Diamond Ci
 
 ---
 
-## 🚨 3. Critical Finding: Real-Time Interaction
+## 3. Critical Finding: Real-Time Interaction
 Web telemetry analysis revealed the integration of the following tool:
 * **Smartsupp (Live Chat)**
 
@@ -45,7 +45,7 @@ Web telemetry analysis revealed the integration of the following tool:
 
 ---
 
-## 🛑 4. Mitigation Action (Incident Response)
+## 4. Mitigation Action (Incident Response)
 As part of the incident handling lifecycle, containment of the threat was initiated by submitting a formal abuse report to the hosting provider (FranTech/PonyNet).
 
 * **Primary Recipient:** `abuse@frantech.ca`
